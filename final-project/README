@@ -1,5 +1,5 @@
 #prerequisite pakage:healpy, camb
 First, I used camb to generate a appropriate power spectrum with the parameters from the camb demo.
-Then, I apply fucntion synfast on the power spectrum, which generate a temperature map according to the power spectrum
-In the end, I apply function anafast on the map generate from the last step, which calculate the power spectrum from the map.
-After ploting the original power spectrum and the power spectrum from the map on the same figure, it turned out that the two lines fitted pretty well.
+Then, I applied fucntion synfast on the power spectrum, which generate a temperature map accordingly.
+In the end, I apply function anafast on the map generated from the last step, which calculate the power spectrum from the map.
+After ploting the original power spectrum and the power spectrum calculated on the same figure, it turned out that the two lines fitted pretty well.
